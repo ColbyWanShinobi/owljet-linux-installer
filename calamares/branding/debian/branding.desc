@@ -21,8 +21,8 @@ strings:
     donateUrl:           https://github.com/ColbyWanShinobi/owljet-linux-installer
 
 images:
-    productLogo:         "OwlJet-logo.png"
-    productIcon:         "OwlJet-logo.png"
+    productLogo:         "debian-logo.png"
+    productIcon:         "debian-logo.png"
     productWelcome:      "welcome.png"
     # productWallpaper:  "wallpaper.png"
 

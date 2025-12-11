@@ -1,3 +1,4 @@
 *.iso
 hide*/
 backups/
+*.qcow2

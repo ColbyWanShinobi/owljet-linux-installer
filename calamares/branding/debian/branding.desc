@@ -3,35 +3,37 @@ componentName:   debian
 welcomeStyleCalamares: true
 welcomeExpandingLogo: true
 windowExpanding: normal
-windowSize: 800px,520px
+windowSize: 800px,580px
 windowPlacement: center
 
 strings:
-    productName:         OwlJet Linux
-    shortProductName:    OwlJet Linux
+    productName:         Debian GNU/Linux
+    shortProductName:    Debian
     version:             13
     shortVersion:        13
-    versionedName:       OwlJet Linux 13
-    shortVersionedName:  OwlJet Linux 13
-    bootloaderEntryName: Debian (OwlJet Linux)
-    productUrl:          https://github.com/ColbyWanShinobi/owljet-linux-installer
-    supportUrl:          https://github.com/ColbyWanShinobi/owljet-linux-installer/discussions
-    knownIssuesUrl:      https://github.com/ColbyWanShinobi/owljet-linux-installer/issues
-    releaseNotesUrl:     https://github.com/ColbyWanShinobi/owljet-linux-installer/releases
-    donateUrl:           https://github.com/ColbyWanShinobi/owljet-linux-installer
+    versionedName:       Debian 13
+    shortVersionedName:  Debian 13
+    bootloaderEntryName: Debian
+    productUrl:          https://debian.org
+    supportUrl:          https://www.debian.org/support
+    knownIssuesUrl:      https://bugs.debian.org
+    releaseNotesUrl:     https://www.debian.org/releases/trixie/releasenotes
+    donateUrl:           https://www.debian.org
+
+sidebar: widget
+navigation: widget
 
 images:
     productLogo:         "debian-logo.png"
     productIcon:         "debian-logo.png"
     productWelcome:      "welcome.png"
-    # productWallpaper:  "wallpaper.png"
 
 slideshow:               "show.qml"
 
 style:
-   sidebarBackground:    "#2c3133"
-   sidebarText:          "#FFFFFF"
-   sidebarTextSelect:    "#4d7079"
-   sidebarTextSelect:    "#292F34"
+   SidebarBackground:    "#26475b"
+   SidebarText:          "#FFFFFF"
+   SidebarTextCurrent:   "#fbfbfb"
+   SidebarBackgroundCurrent: "#265370"
 
 slideshowAPI: 2
